@@ -1,0 +1,14 @@
+/* Formulario */
+
+.formulario {
+    margin: 10rem 15rem 25rem 15rem;
+}
+
+/* Mobile */
+@media only screen and (max-width: 400px) {
+    .formulario {
+        margin: 2rem;
+    }
+}
+
+/* Fin Formulario */

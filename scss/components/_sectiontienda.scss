@@ -1,0 +1,33 @@
+/* Sección Tienda */
+
+.sectionTienda {
+    margin-bottom: 5rem;
+}
+
+.containerTienda {
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.containerTienda h2 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.containerTienda h2:first-of-type {
+    padding-top: 0;
+}
+
+.sectionTienda img {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+/* Mobile */
+@media only screen and (max-width: 400px) {
+    .sectionTienda img {
+        width: 400px;
+        height: auto;
+    }
+}

@@ -1,0 +1,37 @@
+@import "base/colors";
+@import "base/fonts";
+@import "base/size";
+
+@import "components/header";
+@import "components/titles";
+@import "components/navbar";
+@import "components/sectionrecetas";
+@import "components/sectionyoga";
+@import "components/sectionnos";
+@import "components/sectiontienda";
+@import "components/sectionzero";
+@import "components/formulario";
+@import "components/footer";
+
+@import "functions/extends";
+@import "functions/list";
+@import "functions/mixins";
+
+em {
+    color: $color-verde;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    margin-left: 5rem;
+    padding-top: 1rem;
+    @extend %flexbox;
+}
+
+h4 {
+    font-family: $font-family;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: $color-salmon2;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    text-align: center;
+}

@@ -1,0 +1,21 @@
+/* Sección Nosotras */
+
+.sectionNosotras {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.sectionNosotras img {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+/* Mobile */
+@media only screen and (max-width: 400px) {
+    .sectionNosotras img {
+        width: 190px;
+        height: auto;
+    }
+}
+
+/* Fin Sección Nosotras */

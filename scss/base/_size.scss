@@ -1,0 +1,6 @@
+@import "../components/sectionyoga";
+
+$ancho-base: 100%;
+.containerYoga img {
+    width: $ancho-base / 3;
+}

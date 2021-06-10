@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    padding-right: 0.1rem;
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 85%;
+}
+
+a:visited {
+    color: white;
+}
+
+.menu ul {
+    list-style: none;
+ }
+
+.menu li {
+    display: inline-block;
+    position: relative;
+    font-size: 1rem;
+ }
+ 
+.menu ul ul {
+    position: absolute;
+    display: none;
+ }
+
+.menu ul ul li {
+    display: block;
+ }
+
+.menu ul li:hover ul {
+    display: block;
+ }
+
+.submenu1, .submenu2 {
+    margin-left: -2rem;
+    text-decoration: underline;
+    background-color: rgb(77, 77, 77);
+    padding: 0.2rem;
+}
+
+.submenu1 a, .submenu2 a {
+    font-size: 95%;
+}
+
+.logo { 
+    padding: 0.5rem;
+    margin:10px auto;
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    width: auto;
+}
+
+.logoSticky {
+    background-color: white;
+}
+ 
+.menu {
+    margin-left: -0.3rem;
+    background-color: rgb(28, 28, 28);
+    position: absolute;
+    z-index: 1;
+}
+
+.logoSticky, .menu {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.bienvenida, .tienda, .zero {
+    padding: 4rem 5rem 4rem 5rem;
+    color: #D6A692;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: 0.5rem;
+}
+
+em {
+    color: #536c6a;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    margin-left: 5rem;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.imagenesRecetas {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-bottom: 6rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imagenesRecetas img {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.imagenesRecetas img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s; 
+}
+
+.imagenesRecetas a img:hover {
+    transform: none;
+}
+
+.tituloRecetas {
+    margin-left: 5rem;
+}
+
+h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+    color: rgb(191, 146, 0);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1.7rem;
+}
+
+h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+    color: #BF8069;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+p {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size: 1rem;
+    color: rgb(4, 4, 4);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.yoga {
+    padding: 1rem 5rem 4rem 5rem;
+    background-color: #FEDED3;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.tituloYoga {
+    color: #4D6160;
+    margin-left: 0;
+    margin-bottom: 1rem;
+    margin-left: 0.1rem;
+}
+
+.parrafoYoga1 {
+    margin-left: 0.5rem;
+    font-style: italic;
+    padding-bottom: 1rem;
+}
+
+.parrafoYoga {
+    margin-left: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.beneficiosPracticar {
+    padding-top: 8rem;
+    margin-left: 4rem;
+    margin-right: 2rem;
+    color: #536c6a;
+}
+
+.listadoBeneficios li:hover {
+    transform:translateX(1rem);
+    transition: 0.8s ease;
+}
+
+.suscribite {
+    padding: 0.6rem;
+    margin: 2rem 2rem 2rem 4rem;
+    border-radius: 20rem;
+    background-color: white;
+    font-weight: 500;
+    font-size: 95%;
+}
+
+.suscribite:hover {
+    background-color: #BF8069;
+    color: white;
+}
+
+.compartiendo {
+    margin-left: 0.5rem;
+    color: #536c6a;
+}
+
+.containerYoga {
+    margin-left: 0.5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Mobile */
+@media only screen and (max-width: 400px) {
+    .containerYoga img {
+        width: 280px;
+        height: auto;
+    }
+}
+
+ul li {
+    margin-left: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    line-height: 2rem;
+    margin-left: 3.4rem;
+}
+
+ul {
+    list-style-image: url(images/bullet.png);
+}
+
+.sectionNosotras {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.sectionNosotras img {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+/* Mobile */
+@media only screen and (max-width: 400px) {
+    .sectionNosotras img {
+        width: 190px;
+        height: auto;
+    }
+}
+
+.sectionZero img {
+    margin-left: 5rem;
+}
+
+.sectionZero p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;    
+}
+
+.sectionZero em {
+    display: flex;
+    justify-content: left;
+}
+
+.sectionZero, .sectionTienda {
+    margin-bottom: 5rem;
+}
+
+.containerTienda {
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.containerTienda h2 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.containerTienda h2:first-of-type {
+    padding-top: 0;
+}
+
+.sectionTienda img {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+/* Mobile */
+@media only screen and (max-width: 400px) {
+    .sectionTienda img {
+        width: 400px;
+        height: auto;
+    }
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #BF8069;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    text-align: center;
+}
+
+.formulario {
+    margin: 10rem 15rem 25rem 15rem;
+}
+
+/* Mobile */
+@media only screen and (max-width: 400px) {
+    .formulario {
+        margin: 2rem;
+    }
+}
+
+.footer img {
+    margin-left: 1rem;
+}
+
+.footer img:hover {
+    filter: saturate(0.5);
+}
+
+.footer {
+    padding: 4rem;
+    background-color: #FEDED3;
+    display: flex;
+    justify-content: center;
+}
+
+.fondoColor {
+    background-color: #FEDED3;
+}

@@ -1,0 +1,639 @@
+@charset "UTF-8";
+/* Mixins */
+/* Sección Yoga */
+h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 5rem;
+  color: #bf9200;
+  background-color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 1.7rem;
+}
+
+h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 5rem;
+  color: #BF8069;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+p {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  font-size: 1rem;
+  color: #040404;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.yoga {
+  padding: 1rem 5rem 4rem 5rem;
+  background-color: #FEDED3;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+.tituloYoga {
+  color: #4D6160;
+  background-color: #FEDED3;
+  margin-left: 0;
+  margin-bottom: 1rem;
+  margin-left: 0.1rem;
+}
+
+.parrafoYoga1 {
+  margin-left: 0.5rem;
+  font-style: italic;
+  padding-bottom: 1rem;
+}
+
+.parrafoYoga {
+  margin-left: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.beneficiosPracticar {
+  padding-top: 8rem;
+  margin-left: 4rem;
+  margin-right: 2rem;
+  color: #536c6a;
+}
+
+.listadoBeneficios li:hover {
+  transform: translateX(1rem);
+  transition: 0.8s ease;
+}
+
+.suscribite {
+  padding: 0.6rem;
+  margin: 2rem 2rem 2rem 4rem;
+  border-radius: 20rem;
+  background-color: white;
+  font-weight: 500;
+  font-size: 95%;
+}
+.suscribite:hover {
+  background-color: #BF8069;
+  color: white;
+}
+
+.compartiendo {
+  margin-left: 0.5rem;
+  color: #536c6a;
+}
+
+.containerYoga {
+  margin-left: 0.5rem;
+}
+
+/* Mobile */
+@media only screen and (max-width: 400px) {
+  .containerYoga img {
+    width: 280px;
+    height: auto;
+  }
+}
+.yoga li {
+  margin-left: 1.2rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  line-height: 2rem;
+  margin-left: 3.4rem;
+}
+
+.yoga ul {
+  list-style-image: url(../images/bullet.png);
+}
+
+/* Fin Sección Yoga */
+.containerYoga img {
+  width: 33.3333333333%;
+}
+
+/* Header */
+.logo {
+  padding: 0.5rem;
+  margin: 10px auto;
+  height: 120px;
+  width: auto;
+}
+
+.logoSticky {
+  background-color: white;
+  display: block;
+  z-index: 1;
+}
+
+.logoSticky, .menu {
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+/* Fin Header */
+/* Mixins */
+.bienvenida {
+  padding: 4rem 5rem 4rem 5rem;
+  color: #D6A692;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 0.5rem;
+}
+
+.tienda {
+  padding: 4rem 5rem 4rem 5rem;
+  color: #BF8069;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 0.5rem;
+}
+
+.zero {
+  padding: 4rem 5rem 4rem 5rem;
+  color: #536c6a;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 0.5rem;
+}
+
+/* Navbar */
+a {
+  padding-right: 0.1rem;
+  text-decoration: none;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 85%;
+}
+a:visited {
+  color: white;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu li {
+  display: inline-block;
+  position: relative;
+  font-size: 1rem;
+}
+
+.menu ul ul {
+  position: absolute;
+  display: none;
+}
+
+.menu ul ul li {
+  display: block;
+}
+.menu ul ul li:hover {
+  display: block;
+}
+
+.submenu1, .submenu2 {
+  margin-left: -2rem;
+  text-decoration: underline;
+  background-color: #4d4d4d;
+}
+
+.submenu1 a, .submenu2 a {
+  font-size: 95%;
+}
+
+.menu {
+  margin-left: -0.3rem;
+  background-color: #1c1c1c;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Fin Navbar */
+/* Sección Recetas */
+.imagenesRecetas {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding-bottom: 6rem;
+}
+
+.imagenesRecetas img {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.imagenesRecetas img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.imagenesRecetas a img:hover {
+  transform: none;
+}
+
+.tituloRecetas {
+  margin-left: 5rem;
+}
+
+/* Fin Sección Recetas */
+/* Mixins */
+/* Sección Yoga */
+h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 5rem;
+  color: #bf9200;
+  background-color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 1.7rem;
+}
+
+h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 5rem;
+  color: #BF8069;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+p {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  font-size: 1rem;
+  color: #040404;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.yoga {
+  padding: 1rem 5rem 4rem 5rem;
+  background-color: #FEDED3;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+.tituloYoga {
+  color: #4D6160;
+  background-color: #FEDED3;
+  margin-left: 0;
+  margin-bottom: 1rem;
+  margin-left: 0.1rem;
+}
+
+.parrafoYoga1 {
+  margin-left: 0.5rem;
+  font-style: italic;
+  padding-bottom: 1rem;
+}
+
+.parrafoYoga {
+  margin-left: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.beneficiosPracticar {
+  padding-top: 8rem;
+  margin-left: 4rem;
+  margin-right: 2rem;
+  color: #536c6a;
+}
+
+.listadoBeneficios li:hover {
+  transform: translateX(1rem);
+  transition: 0.8s ease;
+}
+
+.suscribite {
+  padding: 0.6rem;
+  margin: 2rem 2rem 2rem 4rem;
+  border-radius: 20rem;
+  background-color: white;
+  font-weight: 500;
+  font-size: 95%;
+}
+.suscribite:hover {
+  background-color: #BF8069;
+  color: white;
+}
+
+.compartiendo {
+  margin-left: 0.5rem;
+  color: #536c6a;
+}
+
+.containerYoga {
+  margin-left: 0.5rem;
+}
+
+/* Mobile */
+@media only screen and (max-width: 400px) {
+  .containerYoga img {
+    width: 280px;
+    height: auto;
+  }
+}
+.yoga li {
+  margin-left: 1.2rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  line-height: 2rem;
+  margin-left: 3.4rem;
+}
+
+.yoga ul {
+  list-style-image: url(../images/bullet.png);
+}
+
+/* Fin Sección Yoga */
+/* Sección Nosotras */
+.sectionNosotras {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.sectionNosotras img {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+/* Mobile */
+@media only screen and (max-width: 400px) {
+  .sectionNosotras img {
+    width: 190px;
+    height: auto;
+  }
+}
+/* Fin Sección Nosotras */
+/* Sección Tienda */
+.sectionTienda {
+  margin-bottom: 5rem;
+}
+
+.containerTienda {
+  display: block;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.containerTienda h2 {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.containerTienda h2:first-of-type {
+  padding-top: 0;
+}
+
+.sectionTienda img {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+/* Mobile */
+@media only screen and (max-width: 400px) {
+  .sectionTienda img {
+    width: 400px;
+    height: auto;
+  }
+}
+/* Sección Zero Waste */
+.sectionZero img {
+  margin-left: 5rem;
+}
+
+.sectionZero p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.sectionZero {
+  margin-bottom: 5rem;
+}
+
+/* Fin Sección Zero Waste */
+/* Formulario */
+.formulario {
+  margin: 10rem 15rem 25rem 15rem;
+}
+
+/* Mobile */
+@media only screen and (max-width: 400px) {
+  .formulario {
+    margin: 2rem;
+  }
+}
+/* Fin Formulario */
+/* Footer */
+.footer img {
+  margin-left: 1rem;
+}
+.footer img:hover {
+  filter: saturate(0.5);
+}
+
+.footer {
+  padding: 4rem;
+  background-color: #FEDED3;
+}
+
+.fondoColor {
+  background-color: #FEDED3;
+}
+
+/* Fin Footer */
+/* Extensiones */
+em, .containerYoga, .logo, .imagenesRecetas, .sectionZero em, .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Fin Extensiones */
+/* Mixins */
+em {
+  color: #536c6a;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  margin-left: 5rem;
+  padding-top: 1rem;
+}
+
+h4 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #BF8069;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  text-align: center;
+}
+
+/* Error 404 */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Catamaran:400,800');
+.error-container {
+  text-align: center;
+  font-size: 106px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 800;
+  margin: 70px 15px;
+}
+.error-container > span {
+  display: inline-block;
+  position: relative;
+}
+.error-container > span.four {
+  width: 136px;
+  height: 43px;
+  border-radius: 999px;
+  background:
+    linear-gradient(140deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.07) 43%, transparent 44%, transparent 100%),
+    linear-gradient(105deg, transparent 0%, transparent 40%, rgba(0, 0, 0, 0.06) 41%, rgba(0, 0, 0, 0.07) 76%, transparent 77%, transparent 100%),
+    linear-gradient(to right, #d89ca4, #e27b7e);
+}
+.error-container > span.four:before,
+.error-container > span.four:after {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 999px;
+}
+.error-container > span.four:before {
+  width: 43px;
+  height: 156px;
+  left: 60px;
+  bottom: -43px;
+  background:
+    linear-gradient(128deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.07) 40%, transparent 41%, transparent 100%),
+    linear-gradient(116deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.07) 50%, transparent 51%, transparent 100%),
+    linear-gradient(to top, #99749D, #B895AB, #CC9AA6, #D7969E, #E0787F);
+}
+.error-container > span.four:after {
+  width: 137px;
+  height: 43px;
+  transform: rotate(-49.5deg);
+  left: -18px;
+  bottom: 36px;
+  background: linear-gradient(to right, #99749D, #B895AB, #CC9AA6, #D7969E, #E0787F);
+}
+
+.error-container > span.zero {
+  vertical-align: text-top;
+  width: 156px;
+  height: 156px;
+  border-radius: 999px;
+  background: linear-gradient(-45deg, transparent 0%, rgba(0, 0, 0, 0.06) 50%,  transparent 51%, transparent 100%),
+    linear-gradient(to top right, #99749D, #99749D, #B895AB, #CC9AA6, #D7969E, #ED8687, #ED8687);
+  overflow: hidden;
+  animation: bgshadow 5s infinite;
+}
+.error-container > span.zero:before {
+  content: '';
+  display: block;
+  position: absolute;
+  transform: rotate(45deg);
+  width: 90px;
+  height: 90px;
+  background-color: transparent;
+  left: 0px;
+  bottom: 0px;
+  background:
+    linear-gradient(95deg, transparent 0%, transparent 8%, rgba(0, 0, 0, 0.07) 9%, transparent 50%, transparent 100%),
+    linear-gradient(85deg, transparent 0%, transparent 19%, rgba(0, 0, 0, 0.05) 20%, rgba(0, 0, 0, 0.07) 91%, transparent 92%, transparent 100%);
+}
+.error-container > span.zero:after {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 999px;
+  width: 70px;
+  height: 70px;
+  left: 43px;
+  bottom: 43px;
+  background: #FDFAF5;
+  box-shadow: -2px 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.screen-reader-text {
+    position: absolute;
+    top: -9999em;
+    left: -9999em;
+}
+    
+@keyframes bgshadow {
+  0% {
+    box-shadow: inset -160px 160px 0px 5px rgba(0, 0, 0, 0.4);
+  }
+  45% {
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0.1);
+  }
+  55% {
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0.1);
+  }
+  100% {
+    box-shadow: inset 160px -160px 0px 5px rgba(0, 0, 0, 0.4);
+  }
+}
+
+/* demo stuff */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+  background-color: #FDFAF5;
+  margin-bottom: 50px;
+}
+html, button, input, select, textarea {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    color: #bbb;
+}
+h1 {
+  text-align: center;
+  margin: 30px 15px;
+}
+.zoom-area { 
+  max-width: 490px;
+  margin: 30px auto 30px;
+  font-size: 19px;
+  text-align: center;
+}
+.link-container {
+  text-align: center;
+}
+a.more-link {
+  text-transform: uppercase;
+  font-size: 13px;
+    background-color: #de7e85;
+    padding: 10px 15px;
+    border-radius: 0;
+    color: #fff;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    text-decoration: none;
+  margin-top: 50px;
+  letter-spacing: 1px;
+}
+/* Fin Error 404 */
+
+/*# sourceMappingURL=style.css.map */

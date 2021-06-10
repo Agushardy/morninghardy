@@ -1,0 +1,20 @@
+/* Sección Zero Waste */
+
+.sectionZero img {
+    margin-left: 5rem;
+}
+
+.sectionZero p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;    
+}
+
+.sectionZero em {
+    @extend %flexbox;
+}
+
+.sectionZero {
+    margin-bottom: 5rem;
+}
+
+/* Fin Sección Zero Waste */

@@ -1,0 +1,14 @@
+@import "../functions/mixins";
+
+.bienvenida {
+    @include titles($color-salmon1, 800)
+}
+
+.tienda {
+    @include titles($color-salmon2, 800)
+}
+
+
+.zero {
+    @include titles($color-verde, 800)
+}

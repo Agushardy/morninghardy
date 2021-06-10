@@ -1,0 +1,20 @@
+/* Footer */
+
+.footer img {
+    margin-left: 1rem;
+    &:hover {
+        filter: saturate(0.5);
+    }
+}
+
+.footer {
+    padding: 4rem;
+    background-color: $color-salmon;
+    @extend %flexbox;
+}
+
+.fondoColor {
+    background-color: $color-salmon;
+}
+
+/* Fin Footer */

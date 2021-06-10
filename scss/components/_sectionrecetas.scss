@@ -1,0 +1,31 @@
+/* Sección Recetas */
+
+.imagenesRecetas {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-bottom: 6rem;
+    @extend %flexbox;
+}
+
+.imagenesRecetas img {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    
+    &:hover {
+        transform: scale(1.1);
+        transition: all 0.5s; 
+    }
+}
+
+.imagenesRecetas a img {
+    &:hover {
+        transform: none;
+    }
+}
+
+.tituloRecetas {
+    margin-left: 5rem;
+}
+
+/* Fin Sección Recetas */

@@ -1,0 +1,23 @@
+/* Header */
+
+.logo { 
+    padding: 0.5rem;
+    margin:10px auto;
+    height: 120px;
+    width: auto;
+    @extend %flexbox;
+}
+
+.logoSticky {
+    background-color: white;
+    display: block;
+    z-index: 1;
+}
+
+.logoSticky, .menu {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+/* Fin Header */
