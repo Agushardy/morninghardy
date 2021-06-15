@@ -1,7 +1,6 @@
 /* Navbar */
 
 a {
-    padding-right: 0.1rem;
     text-decoration: none;
     color: white;
     font-family: 'Raleway', sans-serif;
@@ -37,10 +36,8 @@ a {
  }
 
 .submenu1, .submenu2 {
-    margin-left: -2rem;
     text-decoration: underline;
     background-color: $color-gris;
-
 }
 
 .submenu1 a, .submenu2 a {
@@ -48,7 +45,6 @@ a {
 }
 
 .menu {
-    margin-left: -0.3rem;
     background-color: $color-gris2;
     position: absolute;
     z-index: 1;

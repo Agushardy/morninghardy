@@ -170,7 +170,6 @@ p {
 
 /* Navbar */
 a {
-  padding-right: 0.1rem;
   text-decoration: none;
   color: white;
   font-family: "Raleway", sans-serif;
@@ -204,7 +203,6 @@ a:visited {
 }
 
 .submenu1, .submenu2 {
-  margin-left: -2rem;
   text-decoration: underline;
   background-color: #4d4d4d;
 }
@@ -214,7 +212,6 @@ a:visited {
 }
 
 .menu {
-  margin-left: -0.3rem;
   background-color: #1c1c1c;
   position: absolute;
   z-index: 1;
