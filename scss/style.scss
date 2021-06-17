@@ -21,9 +21,10 @@ em {
     color: $color-verde;
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
-    margin-left: 5rem;
     padding-top: 1rem;
+    text-align: center;
     @extend %flexbox;
+    
 }
 
 h4 {

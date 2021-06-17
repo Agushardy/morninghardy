@@ -22,9 +22,9 @@ h3 {
     font-size: 1.4rem;
 }
 
-p {
-    margin-left: 5rem;
-    margin-right: 5rem;
+.yoga p {
+    padding-left: 0;
+    padding-right: 0;
     font-size: 1rem;
     color: $color-negro;
     font-family: $font-family;
@@ -58,9 +58,9 @@ p {
 }
 
 .beneficiosPracticar {
-    padding-top: 8rem;
+    padding-top: 4rem;
     margin-left: 4rem;
-    margin-right: 2rem;
+    padding-right: 2rem;
     color: $color-verde;
 }
 
@@ -100,6 +100,54 @@ p {
         width: 280px;
         height: auto;
     }
+    .containerYoga {
+        display: block;
+        justify-content: center;
+    }
+    .beneficiosPracticar {
+        margin: 0;
+        display: block;
+        justify-content: center;
+    }
+    .listadoBeneficios {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+/* Tablet */
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .containerYoga img {
+        width: 280px;
+        height: auto;
+    }
+    .containerYoga {
+        display: block;
+        justify-content: center;
+    }
+    .beneficiosPracticar {
+        margin: 0;
+        display: block;
+        justify-content: center;
+    }
+    .listadoBeneficios {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 961px) {
+    .containerYoga {
+        display: block;
+        justify-content: center;
+    }
+    .beneficiosPracticar {
+        display: block;
+        justify-content: center;
+    }
 }
 
 .yoga {
@@ -115,6 +163,12 @@ p {
 .yoga {
     ul {
         list-style-image: url(../images/bullet.png);
+    }
+}
+
+.yoga {
+    a {
+        text-decoration: none;
     }
 }
 

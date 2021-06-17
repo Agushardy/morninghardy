@@ -1,20 +1,56 @@
 /* Sección Nosotras */
 
 .sectionNosotras {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+p {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-size: 1rem;
+    color: $color-negro;
+    font-family: $font-family;
+    font-weight: 400;
+    line-height: 1.5rem;
 }
 
 .sectionNosotras img {
-    margin-left: 5rem;
-    margin-right: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 /* Mobile */
 @media only screen and (max-width: 400px) {
     .sectionNosotras img {
-        width: 190px;
+        width: 350px;
         height: auto;
+    }
+    .sectionNosotras {
+        display: block;
+        justify-content: center;
+    }
+}
+
+/* Tablet */
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .sectionNosotras img {
+        width: 400px;
+        height: auto;
+    }
+    .sectionNosotras {
+        display: block;
+        justify-content: center;
+    }
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 961px) {
+    .sectionNosotras {
+        display: block;
+        justify-content: center;
     }
 }
 

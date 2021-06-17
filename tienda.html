@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- SEO -->
     <meta name="description" content="Un estilo de vida con bases de yoga, la cual conduce a una alimentación saludable 
     y compromiso con el medioambiente. Tienda con productos reciclados, orgánicos y veganos.">
     <meta name="keywords" content="Yoga, recetas saludables, productos orgánicos, productos veganos.">
 
     <meta property="og:title" content="Un estilo de vida consciente">
-    <meta property="og:image" content="https://drive.google.com/file/d/1tYPN6UKks1V6KNFVthji4v3FlwNh82Lx/view?usp=sharing">
+    <meta property="og:image"
+        content="https://drive.google.com/file/d/1tYPN6UKks1V6KNFVthji4v3FlwNh82Lx/view?usp=sharing">
     <meta property="og:image:width" content="200px">
     <meta property="og:image:height" content="200px">
 
@@ -48,19 +49,25 @@
         <!-- navbar -->
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <!-- responsive navbar -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link" href="index.html">RECETAS</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdownMenuLink" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 YOGA
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li><a class="dropdown-item" href="suscribite.html">Suscribite</a></li>
-                                <li><a class="dropdown-item" href="#">Más info</a></li>
+                                <li><a class="dropdown-item" href="index.html">Más info</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">

@@ -17,4 +17,30 @@
     margin-bottom: 5rem;
 }
 
+/* Mobile */
+@media only screen and (max-width: 400px) {
+    .sectionZero img {
+        width: 250px;
+        height: auto;
+    }
+    .sectionZero {
+        display: block;
+        justify-content: center;
+    }
+}
+
+/* Tablet */
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .sectionZero img {
+        width: 450px;
+        height: auto;
+    }
+    .sectionZero {
+        display: block;
+        justify-content: center;
+    }
+}
+
+
 /* Fin Sección Zero Waste */
