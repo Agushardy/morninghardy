@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Agushardy/morninghardy/issues"
   },
-  "homepage": "https://github.com/Agushardy/morninghardy#readme"
+  "homepage": "https://github.com/Agushardy/morninghardy#readme",
+  "dependencies": {
+    "sass": "^1.35.1"
+  },
+  "devDependencies": {}
 }
