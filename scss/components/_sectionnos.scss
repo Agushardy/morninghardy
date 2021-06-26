@@ -3,9 +3,11 @@
 .sectionNosotras {
     padding-top: 3rem;
     padding-bottom: 3rem;
+    text-align: center;
 }
 
 p {
+    text-align: left;
     padding-left: 5rem;
     padding-right: 5rem;
     font-size: 1rem;
@@ -15,15 +17,14 @@ p {
     line-height: 1.5rem;
 }
 
-.sectionNosotras img {
-    padding-left: 5rem;
-    padding-right: 5rem;
+.sectionNosotras h3 {
+    text-align: left;
 }
 
 /* Mobile */
 @media only screen and (max-width: 400px) {
     .sectionNosotras img {
-        width: 350px;
+        width: 300px;
         height: auto;
     }
     .sectionNosotras {

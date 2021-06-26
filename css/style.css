@@ -2,9 +2,10 @@
 /* Mixins */
 /* Sección Yoga */
 h2 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  margin-left: 0;
   color: #bf9200;
   background-color: white;
   font-family: "Raleway", sans-serif;
@@ -59,7 +60,6 @@ h3 {
 }
 
 .beneficiosPracticar {
-  padding-top: 4rem;
   margin-left: 4rem;
   padding-right: 2rem;
   color: #536c6a;
@@ -89,7 +89,7 @@ h3 {
 }
 
 .containerYoga {
-  margin-left: 0.5rem;
+  margin-left: 5rem;
 }
 
 /* Mobile */
@@ -100,12 +100,17 @@ h3 {
   }
 
   .containerYoga {
+    padding-left: 0;
+    margin-left: 0;
     display: block;
     justify-content: center;
   }
 
   .beneficiosPracticar {
     margin: 0;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     display: block;
     justify-content: center;
   }
@@ -113,6 +118,11 @@ h3 {
   .listadoBeneficios {
     margin: 0;
     padding: 0;
+  }
+
+  .suscribite {
+    padding-left: 0;
+    margin-left: 0;
   }
 }
 /* Tablet */
@@ -120,15 +130,22 @@ h3 {
   .containerYoga img {
     width: 280px;
     height: auto;
+    padding-left: 0;
+    margin-left: 0;
   }
 
   .containerYoga {
+    padding-left: 0;
+    margin-left: 0;
     display: block;
     justify-content: center;
   }
 
   .beneficiosPracticar {
     margin: 0;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
     display: block;
     justify-content: center;
   }
@@ -137,12 +154,20 @@ h3 {
     margin: 0;
     padding: 0;
   }
+
+  .suscribite {
+    padding-left: 0;
+    margin-left: 0;
+    margin: 1rem 1rem 1rem 2rem;
+  }
 }
 /* Desktop */
 @media only screen and (min-width: 961px) {
   .containerYoga {
     display: block;
     justify-content: center;
+    padding-left: 0;
+    margin-left: 0;
   }
 
   .beneficiosPracticar {
@@ -168,7 +193,7 @@ h3 {
 
 /* Fin Sección Yoga */
 .containerYoga img {
-  width: 33.3333333333%;
+  width: div(100%, 3);
 }
 
 /* Header */
@@ -194,7 +219,9 @@ h3 {
 /* Fin Header */
 /* Mixins */
 .bienvenida {
-  padding: 4rem 5rem 4rem 5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
   color: #D6A692;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
@@ -204,7 +231,9 @@ h3 {
 }
 
 .tienda {
-  padding: 4rem 5rem 4rem 5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
   color: #BF8069;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
@@ -214,7 +243,9 @@ h3 {
 }
 
 .zero {
-  padding: 4rem 5rem 4rem 5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
   color: #536c6a;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
@@ -286,16 +317,43 @@ navbar-nav {
 }
 
 .tituloRecetas {
-  margin-left: 5rem;
+  margin-top: 3rem;
 }
 
+/* Mobile */
+@media only screen and (max-width: 400px) {
+  .imagenesRecetas img {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .imagenesRecetas {
+    padding-bottom: 0;
+  }
+}
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .imagenesRecetas img {
+    margin-left: 0;
+    margin-right: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .imagenesRecetas {
+    padding-bottom: 0;
+  }
+}
 /* Fin Sección Recetas */
 /* Mixins */
 /* Sección Yoga */
 h2 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  margin-left: 0;
   color: #bf9200;
   background-color: white;
   font-family: "Raleway", sans-serif;
@@ -350,7 +408,6 @@ h3 {
 }
 
 .beneficiosPracticar {
-  padding-top: 4rem;
   margin-left: 4rem;
   padding-right: 2rem;
   color: #536c6a;
@@ -380,7 +437,7 @@ h3 {
 }
 
 .containerYoga {
-  margin-left: 0.5rem;
+  margin-left: 5rem;
 }
 
 /* Mobile */
@@ -391,12 +448,17 @@ h3 {
   }
 
   .containerYoga {
+    padding-left: 0;
+    margin-left: 0;
     display: block;
     justify-content: center;
   }
 
   .beneficiosPracticar {
     margin: 0;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     display: block;
     justify-content: center;
   }
@@ -404,6 +466,11 @@ h3 {
   .listadoBeneficios {
     margin: 0;
     padding: 0;
+  }
+
+  .suscribite {
+    padding-left: 0;
+    margin-left: 0;
   }
 }
 /* Tablet */
@@ -411,15 +478,22 @@ h3 {
   .containerYoga img {
     width: 280px;
     height: auto;
+    padding-left: 0;
+    margin-left: 0;
   }
 
   .containerYoga {
+    padding-left: 0;
+    margin-left: 0;
     display: block;
     justify-content: center;
   }
 
   .beneficiosPracticar {
     margin: 0;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
     display: block;
     justify-content: center;
   }
@@ -428,12 +502,20 @@ h3 {
     margin: 0;
     padding: 0;
   }
+
+  .suscribite {
+    padding-left: 0;
+    margin-left: 0;
+    margin: 1rem 1rem 1rem 2rem;
+  }
 }
 /* Desktop */
 @media only screen and (min-width: 961px) {
   .containerYoga {
     display: block;
     justify-content: center;
+    padding-left: 0;
+    margin-left: 0;
   }
 
   .beneficiosPracticar {
@@ -462,9 +544,11 @@ h3 {
 .sectionNosotras {
   padding-top: 3rem;
   padding-bottom: 3rem;
+  text-align: center;
 }
 
 p {
+  text-align: left;
   padding-left: 5rem;
   padding-right: 5rem;
   font-size: 1rem;
@@ -474,15 +558,14 @@ p {
   line-height: 1.5rem;
 }
 
-.sectionNosotras img {
-  padding-left: 5rem;
-  padding-right: 5rem;
+.sectionNosotras h3 {
+  text-align: left;
 }
 
 /* Mobile */
 @media only screen and (max-width: 400px) {
   .sectionNosotras img {
-    width: 350px;
+    width: 300px;
     height: auto;
   }
 
@@ -512,8 +595,32 @@ p {
 }
 /* Fin Sección Nosotras */
 /* Sección Tienda */
-.sectionTienda card {
-  padding: 10rem;
+.sectionTienda {
+  margin-bottom: 5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.sectionTienda p {
+  text-align: center;
+}
+.sectionTienda h2 {
+  margin: 0;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+.card-body {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.btn-primary {
+  background-color: #BF8069;
+  border-color: #BF8069;
+}
+.btn-primary:hover {
+  background-color: #536c6a;
+  border-color: #536c6a;
 }
 
 /* Sección Zero Waste */
@@ -535,11 +642,21 @@ p {
   .sectionZero img {
     width: 250px;
     height: auto;
+    padding: 0;
+    margin: 0;
   }
 
   .sectionZero {
-    display: block;
-    justify-content: center;
+    text-align: center;
+  }
+
+  .sectionZero em {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .sectionZero h2 {
+    padding-top: 0;
   }
 }
 /* Tablet */
@@ -547,17 +664,38 @@ p {
   .sectionZero img {
     width: 450px;
     height: auto;
+    padding: 0;
+    margin: 0;
   }
 
   .sectionZero {
-    display: block;
-    justify-content: center;
+    text-align: center;
+  }
+}
+/* Desktop */
+@media only screen and (min-width: 961px) {
+  .sectionZero img {
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .sectionZero {
+    text-align: center;
   }
 }
 /* Fin Sección Zero Waste */
 /* Formulario */
+.fondoColor {
+  background-color: #FEDED3;
+}
+
+.logoSticky {
+  background-color: white;
+}
+
 .formulario {
-  margin: 10rem 15rem 25rem 15rem;
+  margin: 10rem;
+  background-color: #FEDED3;
 }
 
 /* Mobile */
@@ -583,10 +721,6 @@ p {
 
 .footer {
   padding: 4rem;
-  background-color: #FEDED3;
-}
-
-.fondoColor {
   background-color: #FEDED3;
 }
 

@@ -2,5 +2,5 @@
 
 $ancho-base: 100%;
 .containerYoga img {
-    width: $ancho-base / 3;
+    width: div($ancho-base, 3)
 }

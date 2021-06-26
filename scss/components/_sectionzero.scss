@@ -22,10 +22,18 @@
     .sectionZero img {
         width: 250px;
         height: auto;
+        padding: 0;
+        margin: 0;
     }
     .sectionZero {
-        display: block;
-        justify-content: center;
+        text-align: center;
+    }
+    .sectionZero em {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .sectionZero h2 {
+        padding-top: 0;
     }
 }
 
@@ -34,11 +42,24 @@
 @media only screen and (min-width: 401px) and (max-width: 960px) {
     .sectionZero img {
         width: 450px;
-        height: auto;
+        height: auto;    
+        padding: 0;
+        margin: 0;
     }
     .sectionZero {
-        display: block;
-        justify-content: center;
+        text-align: center;
+    }
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 961px) {
+    .sectionZero img {  
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .sectionZero {
+        text-align: center;
     }
 }
 

@@ -3,9 +3,10 @@
 /* Sección Yoga */
 
 h2 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-left: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    margin-left: 0;
     @include condicion ($color-naranja);
     font-family: $font-family;
     font-weight: 400;
@@ -58,7 +59,6 @@ h3 {
 }
 
 .beneficiosPracticar {
-    padding-top: 4rem;
     margin-left: 4rem;
     padding-right: 2rem;
     color: $color-verde;
@@ -90,7 +90,7 @@ h3 {
 }
 
 .containerYoga {
-    margin-left: 0.5rem;
+    margin-left: 5rem;
     @extend %flexbox;
 }
 
@@ -101,17 +101,26 @@ h3 {
         height: auto;
     }
     .containerYoga {
+        padding-left: 0;
+        margin-left: 0;
         display: block;
         justify-content: center;
     }
     .beneficiosPracticar {
         margin: 0;
+        padding-left: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
         display: block;
         justify-content: center;
     }
     .listadoBeneficios {
         margin: 0;
         padding: 0;
+    }
+    .suscribite {
+        padding-left: 0;
+        margin-left: 0;
     }
 }
 
@@ -121,19 +130,32 @@ h3 {
     .containerYoga img {
         width: 280px;
         height: auto;
+        padding-left: 0;
+        margin-left: 0;
     }
     .containerYoga {
+        padding-left: 0;
+        margin-left: 0;
         display: block;
         justify-content: center;
     }
     .beneficiosPracticar {
         margin: 0;
+        padding-left: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 1.5rem;
         display: block;
         justify-content: center;
     }
     .listadoBeneficios {
         margin: 0;
         padding: 0;
+    }
+
+    .suscribite {
+        padding-left: 0;
+        margin-left: 0;
+        margin: 1rem 1rem 1rem 2rem;
     }
 }
 
@@ -143,6 +165,8 @@ h3 {
     .containerYoga {
         display: block;
         justify-content: center;
+        padding-left: 0;
+        margin-left: 0;
     }
     .beneficiosPracticar {
         display: block;

@@ -1,7 +1,16 @@
 /* Formulario */
 
+.fondoColor {
+    background-color: $color-salmon;
+}
+
+.logoSticky {
+    background-color: white;
+}
+
 .formulario {
-    margin: 10rem 15rem 25rem 15rem;
+    margin: 10rem;
+    background-color: $color-salmon;
 }
 
 /* Mobile */
