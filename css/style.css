@@ -198,8 +198,8 @@ h3 {
 
 /* Header */
 .logo {
-  padding: 0.5rem;
-  margin: 10px auto;
+  padding: 0.7rem;
+  margin: auto;
   height: 120px;
   width: auto;
 }
@@ -264,6 +264,10 @@ navbar-nav a {
 }
 navbar-nav a:visited {
   color: white;
+}
+
+.dropdown-item:hover {
+  background-color: #D6A692;
 }
 
 navbar-nav ul {
@@ -563,7 +567,7 @@ p {
 }
 
 /* Mobile */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 414px) {
   .sectionNosotras img {
     width: 300px;
     height: auto;
@@ -575,7 +579,7 @@ p {
   }
 }
 /* Tablet */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media only screen and (min-width: 415px) and (max-width: 960px) {
   .sectionNosotras img {
     width: 400px;
     height: auto;
@@ -638,7 +642,7 @@ p {
 }
 
 /* Mobile */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 414px) {
   .sectionZero img {
     width: 250px;
     height: auto;
@@ -660,7 +664,7 @@ p {
   }
 }
 /* Tablet */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media only screen and (min-width: 415px) and (max-width: 960px) {
   .sectionZero img {
     width: 450px;
     height: auto;

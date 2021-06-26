@@ -12,6 +12,12 @@ navbar-nav a {
     }
 }
 
+.dropdown-item {
+    &:hover {
+        background-color: $color-salmon1;
+    }
+}
+
 navbar-nav ul {
     list-style: none;
  }
