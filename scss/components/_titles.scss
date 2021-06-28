@@ -4,6 +4,19 @@
     @include titles($color-salmon1, 800)
 }
 
+
+/* Mobile */
+@media only screen and (max-width: 414px) {
+    .bienvenida {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .sectionNosotras {
+        display: block;
+        justify-content: center;
+    }
+}
+
 .tienda {
     @include titles($color-salmon2, 800)
 }
